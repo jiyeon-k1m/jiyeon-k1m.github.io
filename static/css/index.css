@@ -156,8 +156,8 @@ body {
   border-radius: 5px;
 }
 
-.is-gray {
-  background-color: #808080; /* Medium gray */
+.button.is-gray {
+  background-color: ##7a7a7a; /* Medium gray */
   color: white; /* White text color */
   border: none;
 }
