@@ -119,17 +119,21 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We present <strong>Uni-DVPS</strong>, a unified model for Depthaware Video Panoptic Segmentation (DVPS) that jointly tackles distinct vision tasks, i.e., video panoptic segmentation, monocular depth estimation, and object tracking. In contrast to the prior works that adopt diverged decoder networks tailored for each task, we propose an architecture with a unified Transformer decoder network. We design a single Transformer decoder network for multi-task learning to increase shared operations to facilitate the synergies between tasks and exhibit high efficiency. We also observe that our unified query learns instance-aware representation guided by multi-task supervision, which encourages query-based tracking and obviates the need for training extra tracking module. We validate our architectural design choices with experiments on Cityscapes-DVPS and SemKITTI-DVPS datasets. The performances of all tasks are jointly improved, and we achieve state-of-the-art results on DVPQ metric for both datasets. 
+            We present <strong>Uni-DVPS</strong>, a unified model for Depth-aware Video Panoptic Segmentation (DVPS) that jointly tackles distinct vision tasks, i.e., video panoptic segmentation, monocular depth estimation, and object tracking. In contrast to the prior works that adopt diverged decoder networks tailored for each task, we propose an architecture with a unified Transformer decoder network. We design a single Transformer decoder network for multi-task learning to increase shared operations to facilitate the synergies between tasks and exhibit high efficiency. We also observe that our unified query learns instance-aware representation guided by multi-task supervision, which encourages query-based tracking and obviates the need for training extra tracking module. We validate our architectural design choices with experiments on Cityscapes-DVPS and SemKITTI-DVPS datasets. The performances of all tasks are jointly improved, and we achieve state-of-the-art results on DVPQ metric for both datasets. 
           </p>
         </div>
       </div>
     </div>
     <!--/ Abstract. -->
+  </div>
+</section> 
 
+<section class="section">
+  <div class="container is-max-desktop">
     <!-- Uni-DVPS -->
     <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Uni-DVPS</h2>
+      <div class="column">
+        <h2 class="title is-3">Uni-DVPS Architecture</h2>
         <div class="content has-text-justified">
           <img src="./static/images/uni-dvps/architecture.png">
         </div>
@@ -142,17 +146,14 @@
 <section class="hero is-light is-small">
   <div class="hero-body">
     <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item">
-          <img src="./static/images/uni-dvps/qual1.png">
-        </div>
-        <div class="item">
-          <img src="./static/images/uni-dvps/qual2.png">
-        </div>
-        <div class="item">
-          <img src="./static/images/uni-dvps/qual3.png">
+      <div class="columns is-centered has-text-centered">
+      <div class="column">
+        <h2 class="title is-3">Depth-aware Video Panoptic Segmentation</h2>
+        <div class="content has-text-justified">
+          <img src="./static/images/uni-dvps/qual0.png">
         </div>
       </div>
+    </div>
     </div>
   </div>
 </section>
