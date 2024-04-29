@@ -157,7 +157,7 @@ body {
 }
 
 .button.is-gray {
-  background-color: ##7a7a7a; /* Medium gray */
+  background-color: #7a7a7a; /* Medium gray */
   color: white; /* White text color */
   border: none;
 }
