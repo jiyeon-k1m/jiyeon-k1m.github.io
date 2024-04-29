@@ -153,7 +153,7 @@
   <div class="hero is-light is-small">
     <div class="hero-body">
       <div class="container is-max-desktop">
-        <h2 class="title is-3 has-text-centered">Depth-aware Video Panoptic Segmentation</h2>
+        <h2 class="title is-3 has-text-centered">Depth-aware Video Panoptic Segmentation Results</h2>
         <div id="results-carousel" class="carousel results-carousel">
           <div class="item item-steve">
             <img id ="steve" src="./static/images/uni-dvps/qual1.png" height="100%">
@@ -167,6 +167,55 @@
         </div>
       </div>
     </div>
+  </div>
+</section>
+
+extreme_case<section class="section">
+  <div class="container is-max-desktop">
+
+    <div class="columns is-centered">
+
+      <!-- Query Visualization -->
+      <div class="column">
+        <div class="content">
+          <h2 class="title is-3">Inverse Projection</h2>
+         <!--  <p>
+            Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
+            would be impossible without nerfies since it would require going through a wall.
+          </p> -->
+          <video id="inverse-proj" controls playsinline height="100%">
+              <source src="./static/videos/uni-dvps/inverse-proj.mp4"
+                      type="video/mp4">
+            </video>
+        </div>
+      </div>
+      <!-- Query Visualization -->
+
+      <!-- Attention map Visualization -->
+      <div class="column">
+        <h2 class="title is-3">Attention map Visualization</h2>
+        <div class="columns is-centered">
+          <div class="column content">
+            <!-- p>
+              As a byproduct of our method, we can also solve the matting problem by ignoring
+              samples that fall outside of a bounding box during rendering.
+            </p> -->
+            <img src="./static/images/uni-dvps/attn.png">
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- Attention map Visualization -->
+
+    <!-- Generalization -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">High dynamic range and Occlusion scnarios</h2>
+      </div>
+      <img src="/static/images/uni-dvps/generalization.png">
+    </div>
+    <!-- Generalization -->
   </div>
 </section>
 
