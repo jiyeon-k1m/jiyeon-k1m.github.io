@@ -170,52 +170,47 @@
   </div>
 </section>
 
-extreme_case<section class="section">
+<section class="section">
   <div class="container is-max-desktop">
+
+    <!-- Inverse Projection -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Inverse Projection</h2>
+      </div>
+      <video id="inverse-proj" controls playsinline height="100%">
+        <source src="./static/videos/uni-dvps/inverse-proj.mp4" type="video/mp4">
+      </video>
+    </div>
+    <!-- Inverse Projection -->
 
     <div class="columns is-centered">
 
-      <!-- Query Visualization -->
+      <!-- Attention map Visualization -->
       <div class="column">
         <div class="content">
-          <h2 class="title is-3">Inverse Projection</h2>
+          <h2 class="title is-3">Attention map Visualization</h2>
          <!--  <p>
             Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
             would be impossible without nerfies since it would require going through a wall.
           </p> -->
-          <video id="inverse-proj" controls playsinline height="100%">
-              <source src="./static/videos/uni-dvps/inverse-proj.mp4"
-                      type="video/mp4">
-            </video>
+          <img src="./static/images/uni-dvps/attn.png">
         </div>
       </div>
-      <!-- Query Visualization -->
+      <!-- Attention map Visualization -->
 
       <!-- Attention map Visualization -->
       <div class="column">
-        <h2 class="title is-3">Attention map Visualization</h2>
-        <div class="columns is-centered">
-          <div class="column content">
-            <!-- p>
-              As a byproduct of our method, we can also solve the matting problem by ignoring
-              samples that fall outside of a bounding box during rendering.
-            </p> -->
-            <img src="./static/images/uni-dvps/attn.png">
-          </div>
-
+        <div class="content">
+          <h2 class="title is-3">Occlusion Scenarios</h2>
+         <!--  <p>
+            Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
+            would be impossible without nerfies since it would require going through a wall.
+          </p> -->
+          <img src="./static/images/uni-dvps/occlusion.png">
         </div>
       </div>
-    </div>
-    <!-- Attention map Visualization -->
-
-    <!-- Generalization -->
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">High dynamic range and Occlusion scnarios</h2>
-      </div>
-      <img src="/static/images/uni-dvps/generalization.png">
-    </div>
-    <!-- Generalization -->
+      <!-- Attention map Visualization -->
   </div>
 </section>
 
