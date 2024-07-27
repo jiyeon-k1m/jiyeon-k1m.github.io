@@ -1,0 +1,5 @@
+.DS_Store
+media/.DS_Store
+assets/home/*.pptx
+deprecated_media/
+.idea/

@@ -1,0 +1,41 @@
+
+@media (min-width: 576px) {
+	.container {
+		max-width: 90%;
+	}
+}
+
+@media (min-width: 768px) {
+	.container {
+		max-width: 90%;
+	}
+}
+
+@media (min-width: 992px) {
+	.container {
+		max-width: 960px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1140px;
+	}
+}
+
+.profile-text {padding-right: 30px;}
+
+.pub-img {padding: 0;}
+
+.pub-text {padding-left: 30px;}
+
+/*.sub-info {padding: .2em;}*/
+
+.sub-info.mark {background-color: #fffae0;}
+/*#fcf8e3*/
+
+.img-shadow {filter: drop-shadow(3px 3px 3px #c3c3c3);}
+
+.badge-waring {background-color: #ffde7c;}
+
+.badge-secondary {backgrond-color: #818182;}
