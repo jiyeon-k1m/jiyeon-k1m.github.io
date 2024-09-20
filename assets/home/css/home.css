@@ -25,9 +25,15 @@
 
 .profile-text {padding-right: 30px;}
 
+.section {margin-bottom: 1em; font-weight: 600; margin-top:3em}
+
+.section row {margin:0;}
+
+.pub {margin: 0 0 3em 0;}
+
 .pub-img {padding: 0;}
 
-.pub-text {padding-left: 30px;}
+.pub-text {padding-left: 30px; padding-right:0;}
 
 /*.sub-info {padding: .2em;}*/
 
@@ -39,3 +45,5 @@
 .badge-waring {background-color: #ffde7c;}
 
 .badge-secondary {backgrond-color: #818182;}
+
+.footer p {margin: 0; font-size: 13px; padding: 1em 0;}

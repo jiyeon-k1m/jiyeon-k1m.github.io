@@ -1,12 +1,12 @@
-# Kim Ji-Yeon's website
+## Ji-Yeon's website
 
-Feel free to use my website as your template.
-It is very easy to maintain and adapt to your website as it uses [Bootstrap 4.0](https://getbootstrap.com/docs/4.0/getting-started/introduction/).
-If you think my website is helpful, please add a link to my website.
+This is the source code of Kim Ji-Yeon personal website.
 
-## Credits
+Feel free to use my source code as your template.    
+I have modified some codes using [Bootstrap 4.0](https://getbootstrap.com/docs/4.0/getting-started/introduction/).
 
-This website is adapted from [Michael Niemeyer template](https://m-niemeyer.github.io/).
+Overall design is inspired by [Ayush Tewari's website](https://ayushtewari.com/) and open-source scripts are adapted from [Michael Niemeyer template](https://m-niemeyer.github.io/).   
+I hope this open-sourcing could help the start of your journey!
 
 
 
